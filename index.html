@@ -1,1 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Assignment</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Web Page</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>My Top 5 Skills</h2>
+        <ol type="I">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git & GitHub</li>
+            <li>Responsive Design</li>
+        </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+        <h2>Inspirational Image</h2>
+        <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg" alt="Laptop and Coffee" width="500">
+    </section>
+
+    <!-- Contact Table -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Main St</td>
+                    <td>+2348012345678</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Maple Ave</td>
+                    <td>+2348098765432</td>
+                    <td>jane@example.com</td>
+                </tr>
+                <tr>
+                    <td>Ali Musa</td>
+                    <td>Plot 9, GRA</td>
+                    <td>+2348033334444</td>
+                    <td>ali@example.com</td>
+                </tr>
+                <tr>
+                    <td>Grace Udo</td>
+                    <td>78 Palm Street</td>
+                    <td>+2348022221111</td>
+                    <td>grace@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emeka Obi</td>
+                    <td>5 Unity Rd</td>
+                    <td>+2348055556666</td>
+                    <td>emeka@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <!-- Name -->
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Choose a password" required minlength="6"><br><br>
+
+            <!-- Date of Birth -->
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Gender (Radio buttons) -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br><br>
+
+            <!-- Dropdown (Country) -->
+            <label for="country">Country:</label><br>
+            <select id="country" name="country" required>
+                <option value="">--Select your country--</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Kenya">Kenya</option>
+                <option value="South Africa">South Africa</option>
+            </select><br><br>
+
+            <!-- Skills (Checkboxes) -->
+            <label>Skills:</label><br>
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="js" name="skills" value="JavaScript">
+            <label for="js">JavaScript</label><br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us: info@example.com | &copy; 2025 WebTech</p>
+    </footer>
+
+</body>
+</html>
 
